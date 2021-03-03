@@ -1,0 +1,6 @@
+{
+	"parent": "motherlode-spelunky:item/dynamite",
+	"textures": {
+		"dynamite": "motherlode-spelunky:item/dynamite_sticky"
+	}
+}
