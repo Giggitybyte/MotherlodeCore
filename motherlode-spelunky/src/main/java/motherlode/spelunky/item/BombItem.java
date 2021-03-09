@@ -1,9 +1,9 @@
 package motherlode.spelunky.item;
 
-import net.minecraft.item.Item;
+import motherlode.spelunky.MotherlodeSpelunkyEntities;
 
-public class BombItem extends Item {
+public class BombItem extends ExplosiveItem {
     public BombItem(Settings settings) {
-        super(settings);
+        super(MotherlodeSpelunkyEntities.BOMB_ENTITY, settings);
     }
 }
